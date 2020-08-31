@@ -47,6 +47,8 @@ ADMINS = (
 )
 MANAGERS = ADMINS
 
+ALLOWED_HOSTS = ['.herokuapp.com', 'smartds.herokuapp.com']
+
 _DEFAULT_CLIENT_HOSTS = "localhost,127.0.0.1,https://smartds.herokuapp.com/"
 
 ALLOWED_CLIENT_HOSTS = os.environ.get("ALLOWED_CLIENT_HOSTS")
